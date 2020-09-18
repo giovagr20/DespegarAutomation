@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-09-2020 14:43</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-09-2020 19:03</span>
     <br style="clear:left"/>
 </div>
 
@@ -190,9 +190,9 @@ and doesn't buy
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Reserve new flight
+                                <span class="error-color">Reserve new flight
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -209,31 +209,102 @@ and doesn't buy
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'/html/body/div[2]/div/div/app/checkout-form/div/form-component/form/div[1]/payment-component/payment-method-selector/div/ul/li[4]/p/label/i'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.despegar.automation.tasks.reserve.ReserveFlight.performAs(ReserveFlight.java:44)<br />com.co.despegar.automation.stepdefinitions.ReserveFlightStepDefinitions.userEntersPersonalInformationForInvoice(ReserveFlightStepDefinitions.java:73)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3207075064565866335.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Given User must enter to despegar web page" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Userdespegar navigate despegar" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Userdespegar open the browser" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" userDespegar opens the Despegar page" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Userdespegar open the browser (completed)" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Userdespegar navigate despegar (completed)" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Given User must enter to despegar web page (completed)" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User must choose option vuelos" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User text in origin &quot;Medell&iacute;n, Antioquia, Colombia&quot; and destiny &quot;Bogot&aacute;, Bogot&aacute; D.C., Colombia&quot;" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User adds date departure and return" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User clicks on Search" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" When User chooses first flight" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User clicks on continue" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" Then User enters personal information for invoice
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title=" Given User must enter to despegar web page" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title=" Userdespegar navigate despegar" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title=" Userdespegar open the browser" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title=" userDespegar opens the Despegar page" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" userDespegar opens the Despegar page (completed)" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" Userdespegar open the browser (completed)" width="1366"/>
+                <img src="54598d1b75840479e5da869689aaf1ba4268f231e05c0269e272a39c86cb9717.png" title=" Userdespegar navigate despegar (completed)" width="1366"/>
+                <img src="54598d1b75840479e5da869689aaf1ba4268f231e05c0269e272a39c86cb9717.png" title=" Given User must enter to despegar web page (completed)" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" And User must choose option vuelos" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" Userdespegar choose option flight" width="1366"/>
+                <img src="69e02627d6792d6ff2232d429391f27091746d7a95b1ec6e5f0fa4e39b32bdad.png" title=" Userdespegar click on" width="1366"/>
+                <img src="69e02627d6792d6ff2232d429391f27091746d7a95b1ec6e5f0fa4e39b32bdad.png" title=" userDespegar clicks on BOT&Atilde;&ldquo;N VUELOS" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" userDespegar clicks on BOT&Atilde;&ldquo;N VUELOS (completed)" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" Userdespegar click on (completed)" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" Userdespegar choose option flight (completed)" width="1366"/>
+                <img src="c497908b180b2170e8a3d5e83694ff71593a82eca444f1f261f9174891b90f97.png" title=" And User must choose option vuelos (completed)" width="1366"/>
+                <img src="29ba96d4afd63a5b35583ba1f40a8c32a9d0f749ba6f2a4e13589735e2f07e34.png" title=" And User text in origin &quot;Medell&iacute;n, Antioquia, Colombia&quot; and destiny &quot;Bogot&aacute;, Bogot&aacute; D.C., Colombia&quot;" width="1366"/>
+                <img src="29ba96d4afd63a5b35583ba1f40a8c32a9d0f749ba6f2a4e13589735e2f07e34.png" title=" Userdespegar enter origin destiny flight" width="1366"/>
+                <img src="29ba96d4afd63a5b35583ba1f40a8c32a9d0f749ba6f2a4e13589735e2f07e34.png" title=" Userdespegar enter information" width="1366"/>
+                <img src="29ba96d4afd63a5b35583ba1f40a8c32a9d0f749ba6f2a4e13589735e2f07e34.png" title=" userDespegar enters 'Medell&iacute;n, Antioquia, Colombia' into ORIGEN DE VUELO" width="1366"/>
+                <img src="29ba96d4afd63a5b35583ba1f40a8c32a9d0f749ba6f2a4e13589735e2f07e34.png" title=" Userdespegar enter information (completed)" width="1366"/>
+                <img src="29ba96d4afd63a5b35583ba1f40a8c32a9d0f749ba6f2a4e13589735e2f07e34.png" title=" Userdespegar click on" width="1366"/>
+                <img src="90efd0bb4261e641cf2fbc879704abbc52cb1727d5c239f4babfed95f4bb9367.png" title=" userDespegar clicks on SELECCIONAR CIUDAD ORIGEN" width="1366"/>
+                <img src="c40de4a90a82243a813a1aebf484f448df1b88fc2722deb5fdd3d24193bb8b22.png" title=" userDespegar clicks on SELECCIONAR CIUDAD ORIGEN (completed)" width="1366"/>
+                <img src="c40de4a90a82243a813a1aebf484f448df1b88fc2722deb5fdd3d24193bb8b22.png" title=" Userdespegar click on (completed)" width="1366"/>
+                <img src="fa6cda95b74004dbd71be05af8343f1c939b82337c63e3e41ea046c9ee620fe7.png" title=" Userdespegar enter information" width="1366"/>
+                <img src="fa6cda95b74004dbd71be05af8343f1c939b82337c63e3e41ea046c9ee620fe7.png" title=" userDespegar enters 'Bogot&aacute;, Bogot&aacute; D.C., Colombia' into DESTINO DE VUELO" width="1366"/>
+                <img src="0b15ef346f78a4ca628e8efeb40af7bd0e9dc8ebdf41056f09d18d2fe9663e43.png" title=" userDespegar enters 'Bogot&aacute;, Bogot&aacute; D.C., Colombia' into DESTINO DE VUELO (completed)" width="1366"/>
+                <img src="0b15ef346f78a4ca628e8efeb40af7bd0e9dc8ebdf41056f09d18d2fe9663e43.png" title=" Userdespegar enter information (completed)" width="1366"/>
+                <img src="0b15ef346f78a4ca628e8efeb40af7bd0e9dc8ebdf41056f09d18d2fe9663e43.png" title=" Userdespegar click on" width="1366"/>
+                <img src="143d02ac0fcff33a9a0ee4d76a2fa4f1bce4ec8998bdf73e920fa21b0bb9950b.png" title=" userDespegar clicks on SELECCIONAR CIUDAD DESTINO" width="1366"/>
+                <img src="82b6e64411bcbf8b6e44914e33afb8693a49885e48637726fe060625e8ea971b.png" title=" userDespegar clicks on SELECCIONAR CIUDAD DESTINO (completed)" width="1366"/>
+                <img src="82b6e64411bcbf8b6e44914e33afb8693a49885e48637726fe060625e8ea971b.png" title=" Userdespegar click on (completed)" width="1366"/>
+                <img src="82b6e64411bcbf8b6e44914e33afb8693a49885e48637726fe060625e8ea971b.png" title=" Userdespegar enter origin destiny flight (completed)" width="1366"/>
+                <img src="82b6e64411bcbf8b6e44914e33afb8693a49885e48637726fe060625e8ea971b.png" title=" And User text in origin &quot;Medell&iacute;n, Antioquia, Colombia&quot; and destiny &quot;Bogot&aacute;, Bogot&aacute; D.C., Colombia&quot; (completed)" width="1366"/>
+                <img src="29b3ef57b1d60131ebb2444383962e14df063bcfab3137d16a98b2ca818abf72.png" title=" And User adds date departure and return" width="1366"/>
+                <img src="29b3ef57b1d60131ebb2444383962e14df063bcfab3137d16a98b2ca818abf72.png" title=" Userdespegar date departure and return" width="1366"/>
+                <img src="29b3ef57b1d60131ebb2444383962e14df063bcfab3137d16a98b2ca818abf72.png" title=" Userdespegar date departure and return (completed)" width="1366"/>
+                <img src="29b3ef57b1d60131ebb2444383962e14df063bcfab3137d16a98b2ca818abf72.png" title=" And User adds date departure and return (completed)" width="1366"/>
+                <img src="8b347d5abc8b0c085f3310787923758e8287397ce36738caee60f1c4b0b823e3.png" title=" And User clicks on Search" width="1366"/>
+                <img src="8b347d5abc8b0c085f3310787923758e8287397ce36738caee60f1c4b0b823e3.png" title=" Userdespegar search flights" width="1366"/>
+                <img src="8b347d5abc8b0c085f3310787923758e8287397ce36738caee60f1c4b0b823e3.png" title=" And User clicks on Search (completed)" width="1366"/>
+                <img src="e675d7c83a8e5dd7a59ddd0980ab3be2dcb698b77ce594e7980f1d7ad977ffce.png" title=" When User chooses first flight" width="1366"/>
+                <img src="e675d7c83a8e5dd7a59ddd0980ab3be2dcb698b77ce594e7980f1d7ad977ffce.png" title=" Userdespegar first flight selected" width="1366"/>
+                <img src="e59ccfd207e72d2cf4c0408ff01661f0699473b5b9edf076bf642d4879c7a503.png" title=" Userdespegar click on" width="1366"/>
+                <img src="e59ccfd207e72d2cf4c0408ff01661f0699473b5b9edf076bf642d4879c7a503.png" title=" userDespegar clicks on SELECCIONAR PRIMER VUELO" width="1366"/>
+                <img src="cca35639a67196207acd946bebb4d96dd05d93766034091ee49747a2022fd51d.png" title=" userDespegar clicks on SELECCIONAR PRIMER VUELO (completed)" width="1366"/>
+                <img src="cca35639a67196207acd946bebb4d96dd05d93766034091ee49747a2022fd51d.png" title=" Userdespegar click on (completed)" width="1366"/>
+                <img src="cca35639a67196207acd946bebb4d96dd05d93766034091ee49747a2022fd51d.png" title=" Userdespegar first flight selected (completed)" width="1366"/>
+                <img src="cca35639a67196207acd946bebb4d96dd05d93766034091ee49747a2022fd51d.png" title=" When User chooses first flight (completed)" width="1366"/>
+                <img src="639cea7085120451ff947aeadbcad136deb1067217f63a7d1a5652593893064a.png" title=" Then User enters personal information for invoice
 | Banco | Nombre | Apellido | Numero documento | Estado | Ciudad | Direccion |
-| Bancolombia | Giovanni | Gomez | 10102020 | Antioquia | Medellin | Cra 1 # 1-2 |" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User enters information who travel
-| Nombres | Apellidos | Pais | Numero documento |
-| Giovanni | Gomez | Colombia | 10102020 |" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User Enters information for vouchers
-| Email | Confirmar email | Area | Numero |
-| giovannyg32@gmail.com | giovannyg32@gmail.com | 57 | 3014221478 |" width="1034"/>
-                <img src="2999d597103a5d63b5b15a8ad1d16edb2af457d1808167ace4697bd18f393c65.png" title=" And User verifies if  nombre and apellidos are corrects: <span class='success-color'>SUCCESS</span>" width="1034"/>
+| Bancolombia | Giovanni | Gomez | 10102020 | Antioquia | Medell&iacute;n, Antioquia, Colombia | Cra 1 # 1-2 |" width="1366"/>
+                <img src="639cea7085120451ff947aeadbcad136deb1067217f63a7d1a5652593893064a.png" title=" Userdespegar reserve flight" width="1366"/>
+                <img src="639cea7085120451ff947aeadbcad136deb1067217f63a7d1a5652593893064a.png" title=" Userdespegar reserve flight (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

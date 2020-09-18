@@ -6,13 +6,18 @@ public class WhoTravelModel {
     private String apellidos;
     private String pais;
     private String numeroDocumento;
+    private String dia;
+    private String mes;
+    private String ano;
 
-    public WhoTravelModel(String nombres, String apellidos, String pais, String numeroDocumento) {
-        super();
+    public WhoTravelModel(String nombres, String apellidos, String pais, String numeroDocumento, String dia, String mes, String ano) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.pais = pais;
         this.numeroDocumento = numeroDocumento;
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
     public String getNombres() {
@@ -29,5 +34,17 @@ public class WhoTravelModel {
 
     public String getNumeroDocumento() {
         return numeroDocumento;
+    }
+
+    public String getDia() {
+        return dia;
+    }
+
+    public String getMes() {
+        return mes;
+    }
+
+    public String getAno() {
+        return ano;
     }
 }

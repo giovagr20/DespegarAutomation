@@ -12,13 +12,12 @@ Feature: Reserve new flight
     And User adds date departure and return
     And User clicks on Search
     When User chooses first flight
-    And User clicks on continue
     Then User enters personal information for invoice
-    |Banco      |Nombre  |Apellido|Numero documento|Estado   |Ciudad  |Direccion  |
-    |Bancolombia|Giovanni|Gomez   |10102020        |Antioquia|Medellin|Cra 1 # 1-2|
+    |Banco      |Nombre  |Apellido|Numero documento|Estado   |Ciudad                       |Direccion  |
+    |Bancolombia|Giovanni|Gomez   |10102020        |Antioquia|Medellín, Antioquia, Colombia|Cra 1 # 1-2|
     And User enters information who travel
-    |Nombres |Apellidos|Pais    |Numero documento|
-    |Giovanni|Gomez    |Colombia|10102020        |
+    |Nombres |Apellidos|Pais    |Numero documento|Dia|Mes|Ano |
+    |Giovanni|Gomez    |Colombia|10102020        |17 |1  |1996|
     And User Enters information for vouchers
     |Email                |Confirmar email      |Area|Numero    |
     |giovannyg32@gmail.com|giovannyg32@gmail.com|57  |3014221478|
